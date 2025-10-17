@@ -1,5 +1,9 @@
 # Weather App
 
+[Github Pages](https://davidpayne-au.github.io/weather-r-app/)
+
+[![Deploy to GitHub Pages](https://github.com/davidpayne-au/weather-r-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/davidpayne-au/weather-r-app/actions/workflows/deploy.yml)
+
 A modern, accessible React application for viewing real-time weather information powered by the Open-Meteo API.
 
 ## Features

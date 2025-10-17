@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/weather-r-app">
       <div className="app">
         <NavBar />
         <Routes>

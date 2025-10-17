@@ -89,7 +89,7 @@ NODE_ENV=development npm run test:ui
    - Enter a city name in the search box
    - Select your desired location from the results
    - View current weather conditions including:
-     - Temperature (°F)
+     - Temperature (°C)
      - Humidity (%)
      - Wind Speed (mph)
      - Weather description

@@ -127,8 +127,8 @@ const Weather = () => {
                 </div>
                 <div className="weather-info">
                   <p className="weather-label">Temperature</p>
-                  <p className="weather-value" aria-label={`Temperature is ${weatherData.temperature} degrees Fahrenheit`}>
-                    {weatherData.temperature}°F
+                  <p className="weather-value" aria-label={`Temperature is ${weatherData.temperature} degrees Celsius`}>
+                    {weatherData.temperature}°C
                   </p>
                 </div>
               </div>

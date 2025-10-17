@@ -27,7 +27,7 @@ export const searchLocation = async (query: string): Promise<GeocodingResult[]> 
 
 export const fetchWeather = async (latitude: number, longitude: number): Promise<WeatherData> => {
   const response = await fetch(
-    `${WEATHER_API}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph`
+    `${WEATHER_API}?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&temperature_unit=celsius&wind_speed_unit=mph`
   );
 
   if (!response.ok) {

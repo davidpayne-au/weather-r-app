@@ -34,52 +34,52 @@ A modern, accessible React application for viewing real-time weather information
 ### Installation
 
 1. Navigate to the project directory:
-\`\`\`bash
+```bash
 cd weather-app
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install --include=dev
-\`\`\`
+```
 
 ### Running the App
 
 Start the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The app will be available at \`http://localhost:5173\`
 
 ### Building for Production
 
 Build the app:
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 Preview the production build:
-\`\`\`bash
+```bash
 npm run preview
-\`\`\`
+```
 
 ### Running Tests
 
 Run all tests:
-\`\`\`bash
+```bash
 NODE_ENV=development npm test -- --run
-\`\`\`
+```
 
 Run tests in watch mode:
-\`\`\`bash
+```bash
 NODE_ENV=development npm test
-\`\`\`
+```
 
 Run tests with UI:
-\`\`\`bash
+```bash
 NODE_ENV=development npm run test:ui
-\`\`\`
+```
 
 ## Usage
 
@@ -115,7 +115,7 @@ All text elements meet WCAG 2.1 Level AA standards:
 
 ## Project Structure
 
-\`\`\`
+```
 weather-app/
 ├── src/
 │   ├── components/       # Reusable components (NavBar, LoadingSpinner)
@@ -127,7 +127,7 @@ weather-app/
 │   └── main.tsx         # Entry point
 ├── public/              # Static assets
 └── dist/                # Production build output
-\`\`\`
+```
 
 ## API
 

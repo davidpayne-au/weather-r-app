@@ -151,8 +151,8 @@ const Weather = () => {
                 </div>
                 <div className="weather-info">
                   <p className="weather-label">Wind Speed</p>
-                  <p className="weather-value" aria-label={`Wind speed is ${weatherData.windSpeed} miles per hour`}>
-                    {weatherData.windSpeed} mph
+                  <p className="weather-value" aria-label={`Wind speed is ${weatherData.windSpeed} kilometres per hour`}>
+                    {weatherData.windSpeed} km/h
                   </p>
                 </div>
               </div>

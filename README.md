@@ -91,7 +91,7 @@ NODE_ENV=development npm run test:ui
    - View current weather conditions including:
      - Temperature (°C)
      - Humidity (%)
-     - Wind Speed (mph)
+     - Wind Speed (km/h)
      - Weather description
 
 ## Accessibility Features
